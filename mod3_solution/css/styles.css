@@ -1,0 +1,139 @@
+/* Full Body */
+body{
+	color: black;
+	background-color: darkgray;
+	box-sizing: border-box;
+	font-family: 'Laila', serif;
+}
+
+/* Header */ /* Header */ /* Header */ /* Header */ /* Header */ /* Header */ /* Header */
+#header-nav{
+	background-color: grey;
+	border-radius: 0px;
+	margin: 0;
+}
+.navbar {
+    border: 3px solid black;
+}
+
+/* Company name */
+#company-txt{
+	color: black;
+	padding: 20px;
+	font-size: 3.0em;
+	font-weight: 800;
+}
+.navbar-header a:hover, .navbar-header a:focus {
+	text-decoration: none;
+}
+
+
+/* Drop down button */ /* Drop down button */ /* Drop down button */ /* Drop down button */
+
+/* Navbar toggle button */ /* Navbar toggle button */ /* Navbar toggle button */ /* Navbar toggle button */
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  height: 40px;
+  width: 40px;
+  margin-top: -52px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 15px;
+    height: 4px;
+    border-radius: 1px;
+}
+
+
+/* Navigation menus and drop down */ /* Navigation menus and drop down */ /* Navigation menus and drop down */
+
+#nav-list{
+	margin: 3px;
+}
+
+#nav-list a{
+	color: darkslategrey;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: darkmagenta;
+}
+
+#nav-list a span{
+	color: ;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+/* Main content */ /* Main content */ /* Main content */ /* Main content */ /* Main content */
+
+
+#main-content h2{
+	color: black;
+	font-weight: 400;
+}
+
+
+#main-content section h3{
+	text-align: center;
+	font-weight: 300;
+}
+
+#main-content section p{
+	padding: 30px;
+	background-color: darkolivegreen;
+}
+
+/* media queries for breakpoints */ /* media queries for breakpoints */ /* media queries for breakpoints */
+
+
+/******** Large devices **********/
+@media (min-width: 992px){
+
+	#main-content #title{
+		margin-bottom: 30px;
+	}
+	 .navbar-toggle {
+    display: none;
+  }
+
+}
+
+/******** Small devices ***********/
+@media (min-width: 401px) and (max-width: 991px){
+
+	#main-content #title{
+		margin-bottom: 30px;
+	}
+	 .navbar-toggle {
+    display: none;
+  }
+
+  #company-txt{
+  	font-size: 5.0vw;
+  }
+
+}
+
+/******** extra small devices *********/
+@media (max-width: 400px) {
+
+	#main-content h2{
+		font-size:10vw;
+		margin-bottom: 10px;
+		font-weight: 500;
+	}
+
+	#company-txt{
+  	font-size: 8.0vw;
+  }
+
+}

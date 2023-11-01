@@ -6,8 +6,6 @@ body{
 	font-family: 'Laila', serif;
 }
 
-
-
 /* Header */ /* Header */ /* Header */ /* Header */ /* Header */ /* Header */ /* Header */
 #header-nav{
 	background-color: grey;
@@ -43,6 +41,7 @@ body{
   border: 2px solid #61122f;
 }
 
+
 .navbar-header button.navbar-toggle {
   clear: both;
   height: 40px;
@@ -64,14 +63,17 @@ body{
 	margin: 3px;
 }
 
+
 #nav-list a{
 	color: darkslategrey;
 	text-align: center;
 }
 
+
 #nav-list a:hover{
 	background: darkmagenta;
 }
+
 
 #nav-list a span{
 	color: darkslategrey;
@@ -96,12 +98,10 @@ body{
 	background-color: darkolivegreen;
 }
 
-
-#main-content section p #Chicken{
+ #main-content section p #Chicken{
  	text-decoration: none;
  	text-align: center;
 } 
-
 
 /* media queries for breakpoints */ /* media queries for breakpoints */ /* media queries for breakpoints */
 
@@ -132,7 +132,7 @@ body{
 @media (max-width: 400px) {
 
 	#main-content h2{
-		font-size:8vwvw;
+		font-size:8vw;
 		margin-bottom: 10px;
 		font-weight: 500;
 	}
